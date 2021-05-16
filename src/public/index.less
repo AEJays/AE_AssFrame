@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.AES_Title{
+    padding: 20px 20px;
+    &.circle{
+        margin-left: 50px;
+    }
+    &.circle::before{
+        content: "●";
+        margin-right: 5px;
+    }
+    &.front{  
+
+    }
+    &.front::before{
+        // background-color: black;
+        content:"";
+        border-left: 8px solid #aaa;
+        border-radius: 5px;
+        margin-right: 10px;
+    }
+}
