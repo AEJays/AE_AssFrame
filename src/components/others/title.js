@@ -41,11 +41,11 @@ export const Title=(props)=>{
                 </>
             }else{
                 return <>
-                <span className='AE_Time'>
+                {/* <span className='AE_Time'>
                     <GetYMD theme={Time} Year={Year} Month={Month} Day={Day}>
 
                     </GetYMD>
-                </span>
+                </span> */}
                 <p className={`AE_Title`}>{text} </p>
                 </>
             }
@@ -75,11 +75,11 @@ export const Title=(props)=>{
                 </>
             }else{
                 return <>
-                <span className='AE_Time'>
+                {/* <span className='AE_Time'>
                     <GetYMD theme={Time} Year={Year} Month={Month} Day={Day}>
 
                     </GetYMD>
-                </span>
+                </span> */}
                 <p className={`AE_Title ${theme}`}>{text}</p>
                 </>
             }

@@ -14,8 +14,9 @@ export const Image=(props)=>{
     </img>
 }
 
-// export const Video=(props)=>{
-//     const {
-
-//     }
-// }
+export const Video=(props)=>{
+    const {
+        src="//qvod.yiche.com/48848f91vodtransgzp1251489075/5a6e72e55285890819134108800/v.f40.mp4",
+    }=props
+    return <video className="AE_Media" mediaGroup="true" src={src} controls width="500" ></video>
+}
